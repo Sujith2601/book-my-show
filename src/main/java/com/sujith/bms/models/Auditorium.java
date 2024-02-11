@@ -3,8 +3,14 @@ package com.sujith.bms.models;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
+
 import java.util.List;
+
+import jakarta.persistence.ElementCollection;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.OneToMany;
 
 // 1:M
 // 1:1

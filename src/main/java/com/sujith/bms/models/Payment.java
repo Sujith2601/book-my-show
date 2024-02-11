@@ -3,10 +3,7 @@ package com.sujith.bms.models;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.ManyToOne;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Getter

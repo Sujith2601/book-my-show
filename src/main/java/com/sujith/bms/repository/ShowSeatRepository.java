@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.sujith.bms.models.ShowSeat;
 
-import javax.persistence.LockModeType;
+import jakarta.persistence.LockModeType;
 import java.util.List;
 
 @Repository
