@@ -9,6 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.sujith.bms.exception.ShowSeatNotAvailableException;
 import com.sujith.bms.models.*;
+import com.sujith.bms.models.enums.ShowSeatState;
+import com.sujith.bms.models.enums.TicketStatus;
 import com.sujith.bms.repository.ShowSeatRepository;
 import com.sujith.bms.repository.TicketRepository;
 import com.sujith.bms.repository.UserRepository;

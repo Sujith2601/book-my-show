@@ -3,6 +3,8 @@ package com.sujith.bms.models;
 import lombok.Getter;
 import lombok.Setter;
 
+import com.sujith.bms.models.enums.ShowSeatState;
+
 import jakarta.persistence.*;
 
 @Getter

@@ -1,4 +1,4 @@
-package com.sujith.bms.models;
+package com.sujith.bms.models.enums;
 
 public enum Genre {
     COMEDY,

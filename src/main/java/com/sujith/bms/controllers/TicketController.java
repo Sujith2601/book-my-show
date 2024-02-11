@@ -8,8 +8,8 @@ import com.sujith.bms.dto.BookTicketResponseDto;
 import com.sujith.bms.dto.CancelTicketRequestDto;
 import com.sujith.bms.dto.CancelTicketResponseDto;
 import com.sujith.bms.exception.ShowSeatNotAvailableException;
-import com.sujith.bms.models.ResponseStatus;
 import com.sujith.bms.models.Ticket;
+import com.sujith.bms.models.enums.ResponseStatus;
 import com.sujith.bms.services.TicketService;
 
 @Controller

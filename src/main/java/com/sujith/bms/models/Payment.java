@@ -6,6 +6,9 @@ import lombok.Setter;
 import jakarta.persistence.*;
 import java.util.Date;
 
+import com.sujith.bms.models.enums.PaymentMethod;
+import com.sujith.bms.models.enums.PaymentStatus;
+
 @Getter
 @Setter
 @Entity

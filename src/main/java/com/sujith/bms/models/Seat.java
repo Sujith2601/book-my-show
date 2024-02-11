@@ -3,6 +3,9 @@ package com.sujith.bms.models;
 import lombok.Getter;
 import lombok.Setter;
 
+import com.sujith.bms.models.enums.SeatStatus;
+import com.sujith.bms.models.enums.SeatType;
+
 import jakarta.persistence.*;
 
 @Getter

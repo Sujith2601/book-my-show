@@ -6,6 +6,8 @@ import lombok.Setter;
 
 import java.util.List;
 
+import com.sujith.bms.models.enums.Feature;
+
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

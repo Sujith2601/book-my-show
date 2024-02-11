@@ -7,6 +7,8 @@ import jakarta.persistence.*;
 import java.util.Date;
 import java.util.List;
 
+import com.sujith.bms.models.enums.Feature;
+
 @Getter
 @Setter
 @Entity
